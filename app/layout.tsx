@@ -7,6 +7,7 @@ import { ToasterProvider } from "@/providers/toast.provider";
 
 import "./globals.css";
 import prismadb from "@/lib/prismadb";
+// import TempPage from "./temp-page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <ToasterProvider />
           <ModalProvider />
+          {/* <TempPage /> */}
           {children}
         </body>
       </html>
