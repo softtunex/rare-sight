@@ -85,7 +85,7 @@ export default function StoreSwitcher({
                   onSelect={() => onStoreSelect(store)}
                   className="text-sm"
                 >
-                  <StoreIcon className="mr-2 h-4 w-4" />
+                  <StoreIcon className="mr-2 size-4" />
                   {store.label}
                   <Check
                     className={cn(
