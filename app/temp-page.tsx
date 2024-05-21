@@ -28,7 +28,7 @@ const TempPage: React.FC = () => {
         </button>
       </main>
       <div className="p-4 bg-black text-white flex justify-around">
-        <button className="rounded-full border-2 border-white px-6 py-2">
+        <button className="rounded-full border-2 border-white px-5 py-2">
           Sign Up For Newsletters!
         </button>
         <button className="flex items-center">
